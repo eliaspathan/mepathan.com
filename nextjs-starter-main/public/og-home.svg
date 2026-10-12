@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">mepathan</title>
+  <desc id="desc">Data analytics blog and portfolio</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#171512"/>
+      <stop offset="100%" stop-color="#221d1a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f0b170"/>
+      <stop offset="100%" stop-color="#d66f6a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1000" cy="80" r="220" fill="url(#gold)" opacity="0.12"/>
+  <text x="90" y="190" font-family="Georgia, serif" font-size="28" fill="#e7dccc" letter-spacing="6">DATA ANALYST</text>
+  <text x="90" y="320" font-family="Georgia, serif" font-size="120" font-weight="700" fill="#f5f1eb">mepathan</text>
+  <text x="90" y="430" font-family="Georgia, serif" font-size="76" fill="#f0b170">Data democracy</text>
+  <rect x="90" y="470" width="260" height="70" rx="35" fill="url(#gold)"/>
+  <text x="140" y="517" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#171512">READ MORE</text>
+</svg>

@@ -1,4 +1,4 @@
-// Mock data for Jinko blog
+// Personal portfolio blog data for mepathan
 
 export interface Author {
   id: string;
@@ -25,135 +25,123 @@ export interface Post {
 export const authors: Author[] = [
   {
     id: "1",
-    name: "William Lewis",
-    role: "Editor & Author",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=64&h=64&fit=crop&crop=face"
-  },
-  {
-    id: "2", 
-    name: "Laura Dallas",
-    role: "Guest Author",
-    avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=64&h=64&fit=crop&crop=face"
+    name: "mepathan",
+    role: "Software Engineer & Builder",
+    avatar: "https://avatars.githubusercontent.com/u/10150231?v=4"
   }
 ];
 
 export const categories = [
-  { id: "lifestyle", name: "Lifestyle", color: "bg-purple-100 text-purple-700" },
-  { id: "beauty", name: "Beauty", color: "bg-pink-100 text-pink-700" },
-  { id: "travel", name: "Travel", color: "bg-blue-100 text-blue-700" },
-  { id: "art-design", name: "Art & Design", color: "bg-green-100 text-green-700" }
+  { id: "projects", name: "Projects", color: "bg-purple-100 text-purple-700" },
+  { id: "frontend", name: "Frontend", color: "bg-pink-100 text-pink-700" },
+  { id: "engineering", name: "Engineering", color: "bg-blue-100 text-blue-700" },
+  { id: "ideas", name: "Ideas", color: "bg-green-100 text-green-700" }
 ];
 
 export const posts: Post[] = [
   {
     id: "1",
-    title: "Announcing if attachment resolution sentiments admiration",
-    excerpt: "Assure polite his really and others figure though. Do listening am eagerness oh objection collected. Together…",
+    title: "Designing small products that feel personal and useful",
+    excerpt: "A practical look at how I approach product thinking, fast iteration, and creating tools people actually want to use.",
     content: "Full article content here...",
     author: authors[0],
-    publishedAt: "1 year ago",
-    readTime: 2,
-    views: 1500,
-    comments: 2,
-    category: "Beauty",
-    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=250&fit=crop",
-    tags: ["beauty", "lifestyle"]
+    publishedAt: "Updated recently",
+    readTime: 4,
+    views: 1800,
+    comments: 9,
+    category: "Projects",
+    image: "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?w=400&h=250&fit=crop",
+    tags: ["product", "design", "build"]
   },
   {
     id: "2",
-    title: "Style begin mr heard by in music tried do",
-    excerpt: "Together happy feelings continue juvenile had off one. Unknown may service subject her letters one bed…",
+    title: "What I learned shipping React interfaces with clean structure",
+    excerpt: "A framework for keeping components readable, fast, and maintainable when the project grows beyond the first prototype.",
     content: "Full article content here...",
-    author: authors[1],
-    publishedAt: "1 year ago", 
-    readTime: 2,
-    views: 1500,
-    comments: 2,
-    category: "Beauty",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=250&fit=crop",
-    tags: ["beauty", "style"]
+    author: authors[0],
+    publishedAt: "Recent post",
+    readTime: 5,
+    views: 1600,
+    comments: 6,
+    category: "Frontend",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop",
+    tags: ["react", "frontend", "architecture"]
   },
   {
     id: "3",
-    title: "Day advantages end sufficient eat towards",
-    excerpt: "Together happy feelings continue juvenile had off one. Unknown may service subject her letters one bed…",
+    title: "Building a workflow around GitHub, feedback, and iteration",
+    excerpt: "A reminder that momentum comes from smaller releases, better feedback loops, and shipping before the concept feels perfect.",
     content: "Full article content here...",
     author: authors[0],
-    publishedAt: "1 year ago",
-    readTime: 2,
-    views: 933,
-    comments: 2,
-    category: "Art & Design",
-    image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=250&fit=crop",
-    tags: ["art", "design"]
+    publishedAt: "Recent write-up",
+    readTime: 3,
+    views: 1250,
+    comments: 5,
+    category: "Engineering",
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop",
+    tags: ["github", "workflow", "productivity"]
   },
   {
     id: "4",
-    title: "Songs in oh other avoid it hours woman",
-    excerpt: "Sometimes her behaviour are contented. Do listening am eagerness oh objection collected. Together happy feelings continue…",
+    title: "Why I still care about thoughtful UX in simple apps",
+    excerpt: "The best experiences are often the result of clear decisions, strong visual hierarchy, and a product that removes friction.",
     content: "Full article content here...",
     author: authors[0],
-    publishedAt: "1 year ago",
-    readTime: 2,
-    views: 1000,
-    comments: 2,
-    category: "Lifestyle",
-    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=250&fit=crop",
-    tags: ["lifestyle", "music"]
+    publishedAt: "This week",
+    readTime: 4,
+    views: 980,
+    comments: 4,
+    category: "Ideas",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop",
+    tags: ["ux", "product", "ideas"]
   },
   {
     id: "5",
-    title: "Uneasy no settle when nature narrow in afraid",
-    excerpt: "Together happy feelings continue juvenile had off one. Unknown may service subject her letters one bed…",
+    title: "From code experiments to portfolio projects worth sharing",
+    excerpt: "Examples of how I turn curiosity into useful experiments, polished interfaces, and projects that teach me something new.",
     content: "Full article content here...",
     author: authors[0],
-    publishedAt: "1 year ago",
-    readTime: 2,
-    views: 825,
-    comments: 2,
-    category: "Travel",
-    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=250&fit=crop",
-    tags: ["travel", "nature"]
+    publishedAt: "Recently",
+    readTime: 5,
+    views: 920,
+    comments: 3,
+    category: "Projects",
+    image: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=400&h=250&fit=crop",
+    tags: ["portfolio", "code", "projects"]
   },
   {
     id: "6",
-    title: "Astonished and acceptance men two discretion",
-    excerpt: "Together happy feelings continue juvenile had off one. Unknown may service subject her letters one bed…",
+    title: "My approach to learning, building, and shipping consistently",
+    excerpt: "A simple system for staying curious, learning quickly, and turning research into working software without losing momentum.",
     content: "Full article content here...",
-    author: authors[1],
-    publishedAt: "1 year ago",
-    readTime: 2,
+    author: authors[0],
+    publishedAt: "Latest",
+    readTime: 6,
     views: 1700,
-    comments: 2,
-    category: "Art & Design",
-    image: "https://images.unsplash.com/photo-1460472178825-e5240623afd5?w=400&h=250&fit=crop",
-    tags: ["art", "design"]
+    comments: 8,
+    category: "Engineering",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop",
+    tags: ["learning", "engineering", "growth"]
   }
 ];
 
 export const socialLinks = [
-  { name: "X", url: "#", icon: "Twitter" },
-  { name: "Facebook", url: "#", icon: "Facebook" },
-  { name: "Instagram", url: "#", icon: "Instagram" },
-  { name: "Rumble", url: "#", icon: "Video" }
+  { name: "GitHub", url: "https://github.com/eliaspathan", icon: "GitHub" }
 ];
 
 export const navigationItems = [
   {
-    name: "Demos",
-    href: "#demos",
+    name: "Home",
+    href: "#home",
     subItems: [
-      { name: "Demo 1", description: "Import your favourite demo with one click" },
-      { name: "Demo 2", description: "Mix and match demos for your perfect blog" },
-      { name: "Demo 3", description: "Demo content included to help get you started" },
-      { name: "Demo 4", description: "Create multi column and multi level menus", hot: true },
-      { name: "Demo 5", description: "More than 30 homepage combinations", trending: true },
-      { name: "Demo 6", description: "Customize your site in the WP customizer" }
+      { name: "Portfolio", description: "Projects, experiments, and product ideas" },
+      { name: "Writing", description: "Notes on code, UX, and shipping" },
+      { name: "GitHub", description: "Public work and source code" },
+      { name: "About", description: "A little more about mepathan", hot: true }
     ]
   },
-  { name: "Features", href: "#features" },
-  { name: "Lifestyle", href: "#lifestyle" },
-  { name: "Beauty", href: "#beauty" },
-  { name: "Travel", href: "#travel" },
-  { name: "More", href: "#more" }
+  { name: "Projects", href: "#projects" },
+  { name: "Writing", href: "#writing" },
+  { name: "Code", href: "#code" },
+  { name: "About", href: "#about" }
 ];
